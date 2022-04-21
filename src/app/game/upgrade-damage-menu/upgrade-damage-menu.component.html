@@ -1,0 +1,20 @@
+<div class="content">
+  <p>Bienvenido a la tienda</p>
+  <p>Tus monedas actuales son: {{user.actual_coins}} </p>
+  <div class="bx">
+    <div class="upgrade">
+      <div class="dd">
+        <img src="./../../../assets/icons/sword.svg" alt="">
+        :&nbsp;
+        <p> {{attack}} </p>
+      </div>
+      <button (click)="upgrade_damage(attack === 1 ? attack : attack + 1)">
+        -{{attack === 1 ? attack : attack + 1}}
+        <img src="../../../assets/icons/coin.svg" alt="">
+        &nbsp;
+        <img src="./../../../assets/icons/sword.svg" alt="">
+        +1
+      </button>
+    </div>
+  </div>
+</div>
