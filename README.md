@@ -4,6 +4,12 @@
 </div>
 
 Este proyecto se generó con [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
+Las tecnologias usadas fueron:
+- Angular
+- Typescript
+- javascript
+- html
+- scss
 
 ### Aqui unas imagenes del juego
 
