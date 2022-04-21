@@ -1,27 +1,38 @@
-# JuegoApp
+<div align='center' width="190">
+<img src="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvdjc5MC1udW5ueS0xNS5wbmc.png?s=IqwqHm9Ux59no6IMU_OU8p90XUXI5eETnK5eDUU6idg" width="60">
+<h1> BLOB GAME </H1>
+</div>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
+Este proyecto se generó con [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
 
-## Development server
+### Aqui unas imagenes del juego
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Como ejecutar el programa
 
-## Code scaffolding
+Si no tienes angular en tu maqui sigue estos comandos:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+npm install -g @angular/cli
+```
 
-## Build
+Una vez descargado clonaremos el repo de mi proyecto y haremos:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+npm install
+```
 
-## Running unit tests
+## Ejecucion
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Para desplegar el servidor develop sigue el siguiente comando:
 
-## Running end-to-end tests
+```bash
+ng serve -o
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Compilacion
 
-## Further help
+Para compilar el proyecto hazlo de la siguiente manera
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+ng build
+```
